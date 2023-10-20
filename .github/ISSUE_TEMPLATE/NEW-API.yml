@@ -35,13 +35,3 @@ body:
       placeholder: Add response here
     validations:
       required: true
-  - type: textarea
-    id: screenshot
-    attributes:
-      label: "Screenshots Frontend"
-      description: If applicable, add screenshots to help explain your problem.
-      value: |
-        ![DESCRIPTION](LINK.png)
-      render: bash
-    validations:
-      required: false
