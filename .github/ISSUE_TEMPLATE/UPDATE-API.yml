@@ -1,6 +1,6 @@
 name: "🔀 Update API"
 description: Create a new ticket for a new API.
-title: "🔀 [API] - <api-name>"
+title: "🔀 [UPDATE API] - <api-name>"
 body:
   - type: textarea
     id: description
