@@ -30,7 +30,7 @@ body:
   - type: textarea
     id: after
     attributes:
-      label: "Old Body Req and Response"
+      label: "New Body Req and Response"
       description: Please enter new body req and response
       placeholder: Add new request detail here
     validations:
