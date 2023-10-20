@@ -1,0 +1,47 @@
+name: "New API"
+description: Create a new ticket for a new API.
+title: "🐛 [API] - <title>"
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: "Description"
+      description: Please enter an explicit description of your issue
+      placeholder: Short and explicit description of your incident...
+    validations:
+      required: true
+  - type: input
+    id: reprod-url
+    attributes:
+      label: "API Endpoint"
+      description: Please enter the desire endpoint
+      value: |
+        {{URL}}/...
+    validations:
+      required: true
+  - type: textarea
+    id: request
+    attributes:
+      label: "Request"
+      description: Please enter body req if there's any
+      placeholder: Add body req here
+    validations:
+      required: true
+  - type: textarea
+    id: response
+    attributes:
+      label: "Response"
+      description: Please enter response
+      placeholder: Add response here
+    validations:
+      required: true
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: "Screenshots Frontend"
+      description: If applicable, add screenshots to help explain your problem.
+      value: |
+        ![DESCRIPTION](LINK.png)
+      render: bash
+    validations:
+      required: false
