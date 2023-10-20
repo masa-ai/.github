@@ -1,0 +1,37 @@
+name: "🔀 Update API"
+description: Create a new ticket for a new API.
+title: "🔀 [API] - <api-name>"
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: "Description"
+      description: Please enter an explicit description of your issue
+      placeholder: Short and explicit description of your incident...
+    validations:
+      required: true
+  - type: input
+    id: reprod-url
+    attributes:
+      label: "API Endpoint"
+      description: Please enter the endpoint
+      value: |
+        {{URL}}/...
+    validations:
+      required: true
+  - type: textarea
+    id: before
+    attributes:
+      label: "Old Body Req and Response"
+      description: Please enter old body req and response
+      placeholder: Add old request detail here
+    validations:
+      required: true
+  - type: textarea
+    id: after
+    attributes:
+      label: "Old Body Req and Response"
+      description: Please enter new body req and response
+      placeholder: Add new request detail here
+    validations:
+      required: true
