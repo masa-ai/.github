@@ -1,0 +1,31 @@
+name: New API
+description: New API
+title: "[API]: "
+labels: 
+projects: 
+assignees:
+body:
+  - type: textarea
+    id: endpoint
+    attributes:
+      label: Fill The expected endpoint
+      placeholder: URL
+    validations:
+      required: true
+  - type: textarea
+    id: endpoint
+    attributes:
+      label: Fill The expected endpoint
+      placeholder: URL
+    validations:
+      required: true
+  - type: textarea
+    id: request
+    attributes:
+      label: Fill The expected body req
+      placeholder: Request
+  - type: textarea
+    id: response
+    attributes:
+      label: Fill The expected response
+      placeholder: Response
